@@ -10,6 +10,14 @@ License:GNU General Public License 2.0
 License URI:license.txt
 */
 
+/* Archive warning */
+body:before {
+    content: 'This is an archive of the PSCSTA site taken 10/1/2019. For current information, please visit pscsta.org';
+    background: pink;
+    width: 100%;
+    display: block;
+}
+
 
 /* --------------------------------------------------------------
 GENERAL ELEMENTS
