@@ -13,3 +13,12 @@ if(menu_exists){
 		document.body.classList.remove('menu-mobile-active');
 	});
 }
+
+// Add link to header warning
+window.onload = function(){
+    var body = document.getElementsByTagName("BODY")[0];
+    var banner = document.createElement('div');
+    banner.classList.add('banner');
+    banner.innerHTML = "This is an archive of the PSCSTA site taken 10/1/2019. For current information, please visit <a href='https://pscsta.org'>pscsta.org</a>"
+    body.insertBefore(banner, body.firstChild);
+}
